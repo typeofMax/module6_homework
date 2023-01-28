@@ -2,7 +2,7 @@ const exponentiation = (x, n) => {
     if (Number.isInteger(x) && Number.isInteger(n)) {
         return x**n;
     }
-    return 'Исользуйте целое число';
+    return 'Исользуйте целые числа';
 }
 
 console.log(exponentiation(2, 4));
